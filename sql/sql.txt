@@ -10,7 +10,7 @@ VALUES
 ('Aline', 34),
 ('Carlos', 20),
 ('Joao', 16),
-('Maria', 30);
+('Maria', 12);
 
 SELECT * FROM users
 WHERE age > 18;

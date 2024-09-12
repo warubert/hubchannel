@@ -62,3 +62,46 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Diretórios de build do Maven
+target/
+*.war
+
+# Diretórios e arquivos temporários do IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+*.classpath
+*.project
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Arquivos de configuração específicos de ambiente
+*.log
+*.tmp
+
+# Dependências do Maven
+/.m2/
+
+# Diretórios do Tomcat
+.tomcat/
+logs/
+work/
+temp/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do sistema
+*.swp
+*~
